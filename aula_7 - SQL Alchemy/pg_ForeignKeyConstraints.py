@@ -6,7 +6,7 @@ from sqlalchemy import (
 from datetime import datetime
 
 # 1️⃣ Conexão com o banco PostgreSQL
-engine = create_engine("postgresql+psycopg2://orlando:123mudar@localhost:5432/clientes")
+engine = create_engine("postgresql+psycopg2://orlando:123mudar@172.24.53.232:5432/clientes")
 
 # 2️⃣ Criação do objeto de metadados
 metadata = MetaData()

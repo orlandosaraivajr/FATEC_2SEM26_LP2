@@ -18,7 +18,7 @@ class User(Base):
     updated_on = Column(DateTime(), default=datetime.now, onupdate=datetime.now)
 
 # Conexão com PostgreSQL (ajuste conforme necessário)
-engine = create_engine("postgresql+psycopg2://orlando:123mudar@localhost:5432/clientes", echo=False)
+engine = create_engine("postgresql+psycopg2://orlando:123mudar@172.24.53.232:5432/clientes", echo=False)
 
 # Criação das tabelas
 Base.metadata.create_all(engine)

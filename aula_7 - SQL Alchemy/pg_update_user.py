@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, 
 from datetime import date, datetime
 
 # 1️⃣ Conexão com o banco PostgreSQL
-engine = create_engine("postgresql+psycopg2://orlando:123mudar@localhost:5432/clientes")
+engine = create_engine("postgresql+psycopg2://orlando:123mudar@172.24.53.232:5432/clientes")
 
 metadata = MetaData()
 
